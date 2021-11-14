@@ -131,4 +131,4 @@ window.open('https://www.google.com','_blank');
         }
 ```
 
-[Wacth the Example Demo][https://mboussaid.github.io/contextMenu.js/demo.html]
+[Wacth the Example Demo](https://mboussaid.github.io/contextMenu.js/demo.html)
