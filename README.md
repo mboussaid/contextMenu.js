@@ -3,6 +3,12 @@
 
 
 ## Quick Start 
+```html
+
+<script src="https://raw.githubusercontent.com/mboussaid/contextMenu.js/main/src/contextMenu.min.js" ></script>
+```
+
+## Get Started
 
 ```javascript
 
