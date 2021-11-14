@@ -7,7 +7,7 @@
 ## Quick Start 
 
 ```html
-<script src="https://raw.githubusercontent.com/mboussaid/contextMenu.js/main/src/contextMenu.min.js" ></script>
+<script src="https://unpkg.com/@mboussaid/contextmenu.js@1.0.0" ></script>
 
 
 ```
