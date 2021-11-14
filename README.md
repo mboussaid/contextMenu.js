@@ -1,7 +1,82 @@
 # ContextMenu.js
 ## LightWeight Javascript Library for making your own contextmenu 
 
+
 ## Quick Start 
+
+```javascript
+
+
+contextMenu({
+list:[
+
+{
+template:"<a href='#'>Github</a>",
+onClick:function(item,index){
+console.log("you have clicked on github link !!!!!!")
+}
+
+{
+template:"<a href='#'>Facebook</a>",
+onClick:function(item,index){
+console.log("you have clicked on Facebook link !!!!!!")
+},
+
+{
+template:"<a href='#'>Youtube</a>",
+onClick:function(item,index){
+console.log("you have clicked on Youtube link !!!!!!")
+}
+}
+]
+}).int();
+```
+
+
+### Styling
+
+
+```css
+
+
+/* The main container */
+.contextMenu{
+
+}
+
+
+/* The ul element */
+.contextMenuList{
+
+}
+
+
+/* The main container */
+.contextMenuItem{
+
+}
+
+
+```
+
+
+### Using Custom Classes and id
+
+```javascript
+
+contextMenu({
+className:"myCustomClassName",
+
+id:"myCustomIdHere",
+list:[]
+}).init();
+```
+
+
+
+
+
+## Example
 
 ```javascript
 contextMenu({
