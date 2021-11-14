@@ -1,0 +1,24 @@
+{
+  "name": "contextmenu",
+  "version": "1.0.0",
+  "description": "Javascript Library For making ContextMenu ",
+  "main": "src/contextMenu.js",
+  "scripts": {
+    "uglify": "uglifyjs src/contextMenu.js --compress sequences=true,conditionals=true,booleans=true --mangle --output src/contextMenu.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mboussaid/contextMenu.js.git"
+  },
+  "keywords": [
+    "contextmenu",
+    "javascript",
+    "library"
+  ],
+  "author": "mohamed boussaid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mboussaid/contextMenu.js/issues"
+  },
+  "homepage": "https://github.com/mboussaid/contextMenu.js#readme"
+}
