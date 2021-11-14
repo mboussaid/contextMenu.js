@@ -1,7 +1,7 @@
 # ContextMenu.js
 ## LightWeight Javascript Library for making your own contextmenu 
 
-
+![Ezample](./demo.gif)
 ## Quick Start 
 ```html
 
