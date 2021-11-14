@@ -22,7 +22,7 @@ const contextMenu = (function(){
             display:"flex",
             flexDirection:"column"
         })
-        config.list.forEach((item,index)=>{
+        config.items.forEach((item,index)=>{
     
             let li = document.createElement("li");
             li.innerHTML =  item.template;
@@ -54,9 +54,10 @@ const contextMenu = (function(){
 
     }
 
-Constructor.prototype.init = function(){
+Constructor.prototype.init = function(element){
 
 
+let el  = element || document;
     let id = config.id || 'contextMenuId';
     let contextMenu = document.querySelector(`#${id}`);
 
@@ -65,7 +66,7 @@ Constructor.prototype.init = function(){
            display:"none"
        })
     })
-    document.addEventListener('contextmenu',function(e){
+    el.addEventListener('contextmenu',function(e){
         e.preventDefault();
        
         applyStyle(contextMenu,{
