@@ -35,28 +35,27 @@ contextMenu({
 
 
 contextMenu({
-items:[
-
-{
-template:"<a href='#'>Github</a>",
-onClick:function(item,index){
-console.log("you have clicked on github link !!!!!!")
-}
-
-{
-template:"<a href='#'>Facebook</a>",
-onClick:function(item,index){
-console.log("you have clicked on Facebook link !!!!!!")
-},
-
-{
-template:"<a href='#'>Youtube</a>",
-onClick:function(item,index){
-console.log("you have clicked on Youtube link !!!!!!")
-}
-}
-]
-}).int();
+    items:[
+        {
+            template:"<a href='#'>Github</a>",
+            onClick:function(item,index){
+                console.log("you have clicked on github link !!!!!!")
+            }
+        },
+        {
+            template:"<a href='#'>Facebook</a>",
+            onClick:function(item,index){
+                console.log("you have clicked on Facebook link !!!!!!")
+            }
+        },
+        {
+            template:"<a href='#'>Youtube</a>",
+            onClick:function(item,index){
+                console.log("you have clicked on Youtube link !!!!!!")
+            }
+        }
+    ]
+}).init();
 ```
 
 
@@ -92,10 +91,9 @@ console.log("you have clicked on Youtube link !!!!!!")
 ```javascript
 
 contextMenu({
-className:"myCustomClassName",
-
-id:"myCustomIdHere",
-items:[]
+    className:"myCustomClassName",
+    id:"myCustomIdHere",
+    items:[]
 }).init(document);
 ```
 
